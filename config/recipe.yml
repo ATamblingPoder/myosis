@@ -12,11 +12,14 @@ modules:
   - type: akmods
     base: asus
     install:
-      - nvidia
       - v4l2loopback
       - winesync
       - xpadneo
       - xonedo
+
+  - type: bling
+    install:
+      - laptop
 
   - type: rpm-ostree
     install:
