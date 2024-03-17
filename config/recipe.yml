@@ -15,7 +15,7 @@ modules:
       - v4l2loopback
       - winesync
       - xpadneo
-      - xonedo
+      - xone
 
   - type: bling
     install:
