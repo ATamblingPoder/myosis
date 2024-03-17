@@ -9,6 +9,15 @@ modules:
     files:
       - usr: /usr
 
+  - type: akmods
+    base: asus
+    install:
+      - nvidia
+      - v4l2loopback
+      - winesync
+      - xpadneo
+      - xonedo
+
   - type: rpm-ostree
     install:
       - fastfetch
