@@ -1,5 +1,0 @@
-ublue_variants:
-  - label: atamblingpoder/myosis
-    ks: /kickstart/ublue-os.ks
-    flavors:
-      - label: atamblingpoder/myosis
