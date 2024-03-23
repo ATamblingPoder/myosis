@@ -34,5 +34,6 @@ modules:
       install:
         - org.mozilla.firefox
         - one.ablaze.floorp
+        - net.lutris.Lutris
 
   - type: signing
