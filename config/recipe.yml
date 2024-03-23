@@ -33,5 +33,6 @@ modules:
     system:
       install:
         - org.mozilla.firefox
+        - one.ablaze.floorp
 
   - type: signing
