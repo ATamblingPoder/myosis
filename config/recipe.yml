@@ -1,7 +1,7 @@
 name: myosis
 description: This is my personal OS image.
 
-base-image: ghcr.io/ublue-os/kinoite-asus-nvidia
+base-image: ghcr.io/ublue-os/silverblue-asus-nvidia
 image-version: 39
 
 modules:
@@ -32,7 +32,5 @@ modules:
     system:
       install:
         - org.mozilla.firefox
-        - one.ablaze.floorp
-        - net.lutris.Lutris
 
   - type: signing
