@@ -12,7 +12,6 @@ modules:
   - type: akmods
     base: asus
     install:
-      - winesync
       - xpadneo
       - xone
 
