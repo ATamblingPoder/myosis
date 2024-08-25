@@ -2,7 +2,7 @@ name: myosis
 description: This is my personal OS image.
 
 base-image: ghcr.io/ublue-os/kinoite-asus-nvidia
-image-version: 40
+image-version: latest 
 
 modules:
   - type: files
