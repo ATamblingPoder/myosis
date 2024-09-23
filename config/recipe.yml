@@ -9,11 +9,6 @@ modules:
     files:
       - usr: /usr
 
-  - type: akmods
-    base: asus
-    install:
-      - xpadneo
-      - xone
   - type: rpm-ostree
     install:
       - fastfetch
